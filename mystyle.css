@@ -1,0 +1,117 @@
+/*global*/
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+:root{
+        --primary: #ffcc00;
+}
+body{
+        font-family: 'Verdana', sans-serif;
+        background-color: black;
+        color: white;
+}
+h1{
+        text-align: center;
+}
+a{
+        text-decoration: none;
+}
+img{
+        max-width: 100%;
+}
+/*utilities*/
+
+/*nav*/
+nav.top-row{
+        background-color: white;
+}
+nav.left-container{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        color: white;
+        width: 20%;
+}
+nav.navigation{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content: space-between;
+        color: black;
+        width: 100%;
+}
+.logo-border{
+
+}
+.logo img{
+        
+}
+.link-login{
+        text-transform: uppercase;
+        color: black;
+        font-size: 14px;
+        letter-spacing: 4px;
+        font-weight: bold;
+        margin-right: 20px;
+
+}
+.link-search{
+        display: none;
+}
+.link-news{
+        display: none;
+}
+.link-subscribe{
+        text-transform: uppercase;
+        color: white;
+        background-color: black;
+        font-size: 14px;
+        letter-spacing: 4px;
+        font-weight: bold;
+        margin-right: 20px;
+        padding: 15px;
+}
+.link-menu{
+
+}
+.link-downarrow{
+
+}
+
+/*header*/
+.site-header{
+        background-color: black;
+        text-align: center;
+}
+.site-header h1{
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 48px;
+        color:white;
+}
+.site-header h2{
+        color: yellow;
+        text-align: center;
+        margin-bottom: 20px;
+}
+.subscriber span{
+        text-decoration:underline;
+        color: white;
+        text-decoration-color: #ffcc00;
+}
+/*main*/
+.main-covid img{
+        display: flex;
+}
+img{
+        max-width: 30%;
+}
+/*today's picks*/
+.todays-picks h1,h2,h3{
+        text-transform: uppercase;
+}
+.todays-picks span{
+        color: #ffcc00;
+}
+.todays-picks h3{
+        text-decoration: underline;
+}
