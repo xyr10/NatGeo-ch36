@@ -17,6 +17,18 @@ a{
 img{
         max-width: 100%;
 }
+/*responsive design*/
+@media (min-width: 768px) {
+        .container {
+                width: 750px;
+        }
+}
+@media (min-width: 992px) {
+        .container {
+                width: 970px;
+        }
+}
+
 /*utilities*/
 
 /*nav*/
@@ -201,6 +213,10 @@ nav.navigation{
         font-size: 13px;
         font-weight: bold;
 }
+.container{
+        width:90%;
+        margin: auto;
+}
 /*today's picks*/
 .todays-picks h1,h2,h3{
         text-transform: uppercase;
@@ -221,13 +237,18 @@ nav.navigation{
 }
 .small-articles{
         display: flex;
-        justify-content: top;
-        flex-direction: column;
+        justify-content: left;
+        flex-direction: row;
         background-color: black;
+        margin: 30px;
 }
 .small-articles-img{
-        height: 50px;
-        width: 15%;
+        height: 100px;
+        width: 100px;
+}
+.small-articles-img img{
+        height: 100%;
+        width: 100%;
 }
 .small-articles-text{
         font-size: 12px;
@@ -238,13 +259,19 @@ nav.navigation{
         cursor: pointer;
 }
 .small-articles-text p{
-        text-decoration: underline;
         cursor: pointer;
 }
 
 .small-articles-text:hover{
         background-color: black;
+        text-decoration: underline;
         cursor: pointer;
         margin-bottom: 5px;
         transform: 1s;
+}
+.todays-picks h3{
+        text-decoration: underline;
+        text-decoration-color: #ffcc00;
+        text-decoration-thickness: 3px;
+}
 }
